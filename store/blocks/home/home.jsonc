@@ -1,14 +1,26 @@
 {
   "store.home": {
     "blocks": [
-      "slider-layout#styles",
+      "flex-layout.row#slider",
       "shelf#new-arrivals",
       "shelf#clearence",
       "flex-layout.row#newsletter",
       "rich-text#brands",
-      "slider-layout#brands"
+      "flex-layout.row#brands"
       // "rich-text#instagram",
       // "flex-layout.row#instagram"
+    ]
+  },
+
+  "flex-layout.row#slider": {
+    "children": [
+      "slider-layout#styles"
+    ]
+  },
+
+  "flex-layout.row#brands": {
+    "children": [
+      "slider-layout#brands"
     ]
   },
 
