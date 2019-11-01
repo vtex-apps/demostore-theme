@@ -13,46 +13,10 @@
   },
   "header-layout.desktop": {
     "children": [
-      "header-row#1-desktop",
-      "header-row#2-desktop",
-      "header-row#3-desktop",
       "header-row#4-desktop"
     ]
   },
 
-  "header-row#1-desktop": {
-    "children": [
-      "telemarketing"
-    ],
-    "props": {
-      "fullWidth": true
-    }
-  },
-
-  "header-row#2-desktop": {
-    "children": [
-      "notification.bar#home"
-    ],
-    "props": {
-      "fullWidth": "true"
-    }
-  },
-  "notification.bar#home": {
-    "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
-    }
-  },
-  "header-row#3-desktop": {
-    "children": [
-      "vtex.menu@2.x:menu#websites",
-      "header-spacer",
-      "vtex.menu@2.x:menu#institutional"
-    ],
-    "props": {
-      "blockClass": "menu-link",
-      "inverted": "true"
-    }
-  },
   "header-row#4-desktop": {
     "children": [
       "logo#desktop",
@@ -60,7 +24,6 @@
       "header-spacer",
       "header-spacer",
       "search-bar",
-      "locale-switcher",
       "login",
       "minicart"
     ],
@@ -69,6 +32,7 @@
       "blockClass": "main-header"
     }
   },
+
   "logo#desktop": {
     "props": {
       "title": "Logo",
@@ -100,12 +64,13 @@
       "header-row#1-mobile"
     ]
   },
+
   "header-row#1-mobile": {
     "children": [
       "drawer",
+      "header-spacer",
       "logo#mobile",
       "header-spacer",
-      "login",
       "minicart"
     ],
     "props": {
@@ -113,6 +78,7 @@
       "blockClass": "main-header-mobile"
     }
   },
+
   "drawer": {
     "children": [
       "menu#drawer"
@@ -121,9 +87,10 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-clothing",
-      "menu-item#category-decoration",
-      "menu-item#custom-sale"
+      "menu-item#category-electronics",
+      "menu-item#category-major-appliances",
+      "menu-item#category-small-appliances",
+      "menu-item#login"
     ],
     "props": {
       "orientation": "vertical"
