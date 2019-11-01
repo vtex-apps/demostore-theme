@@ -125,8 +125,7 @@
       "width": "100%"
     },
     "children": [
-      "vtex.menu@2.x:menu#custom-sale",
-      "info-card#home"
+      "vtex.menu@2.x:menu#custom-sale"
     ]
   },
   "vtex.menu@2.x:menu#custom-sale": {

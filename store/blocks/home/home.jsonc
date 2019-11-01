@@ -1,41 +1,170 @@
 {
   "store.home": {
     "blocks": [
-      "carousel#home",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
-      "shelf#home",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      "rich-text#experience",
+      "flex-layout.row#experiences",
+      "rich-text#style",
+      "flex-layout.row#styles",
+      "shelf#new-arrivals",
+      "shelf#clearence",
       "newsletter"
     ]
   },
 
-  "carousel#home": {
+  "flex-layout.row#experiences": {
+    "children": [
+      "flex-layout.col#experience-dinner",
+      "flex-layout.col#experience-relax",
+      "flex-layout.col#experience-family"
+    ]
+  },
+
+  "flex-layout.col#experience-dinner": {
+    "children": [
+      "info-card#experience-dinner"
+    ],
     "props": {
-      "autoplay": false,
-      "banners": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        }
-      ],
-      "height": 720,
-      "showArrows": true,
-      "showDots": true
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
     }
   },
 
-  "shelf#home": {
+  "flex-layout.col#experience-relax": {
+    "children": [
+      "info-card#experience-relax"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#experience-family": {
+    "children": [
+      "info-card#experience-family"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "info-card#experience-dinner": {
+    "props": {
+      "isFullModeStyle": true,
+      "headline": "Dinner",
+      "imageUrl": "https://www.receitasdecomidas.com.br/wp-content/uploads/2016/08/receitas-jantar.jpg",
+      "callToActionMode": "button"
+    }
+  },
+
+  "info-card#experience-relax": {
+    "props": {
+      "isFullModeStyle": true,
+      "headline": "Relax",
+      "imageUrl": "https://www.receitasdecomidas.com.br/wp-content/uploads/2016/08/receitas-jantar.jpg",
+      "callToActionMode": "button"
+    }
+  },
+
+  "info-card#experience-family": {
+    "props": {
+      "isFullModeStyle": true,
+      "headline": "Family",
+      "imageUrl": "https://www.receitasdecomidas.com.br/wp-content/uploads/2016/08/receitas-jantar.jpg",
+      "callToActionMode": "button"
+    }
+  },
+
+  "rich-text#experience": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "*Buy for an experience*",
+      "blockClass": "ocasiao",
+      "textColor": "c-on-action",
+      "font": "t-heading-5"
+    }
+  },
+
+  "rich-text#style": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "*Choose by style*",
+      "blockClass": "ocasiao",
+      "textColor": "c-on-action",
+      "font": "t-heading-5"
+    }
+  },
+
+  "flex-layout.row#styles": {
+    "children": [
+      "flex-layout.col#style-retro",
+      "flex-layout.col#style-modern"
+    ]
+  },
+
+  "flex-layout.col#style-retro": {
+    "children": [
+      "info-card#style-retro"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#style-modern": {
+    "children": [
+      "info-card#style-modern"
+    ],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "info-card#style-retro": {
+    "props": {
+      "isFullModeStyle": true,
+      "headline": "Dinner",
+      "imageUrl": "https://www.receitasdecomidas.com.br/wp-content/uploads/2016/08/receitas-jantar.jpg",
+      "callToActionMode": "button"
+    }
+  },
+
+  "info-card#style-modern": {
+    "props": {
+      "isFullModeStyle": true,
+      "headline": "Relax",
+      "imageUrl": "https://www.receitasdecomidas.com.br/wp-content/uploads/2016/08/receitas-jantar.jpg",
+      "callToActionMode": "button"
+    }
+  },
+
+  "shelf#new-arrivals": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "collection": "139",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "New arrivals"
+      }
+    }
+  },
+
+  "shelf#clearence": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "140",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
         "maxItems": 10,
@@ -43,7 +172,7 @@
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top sellers"
+        "titleText": "Clearence"
       }
     }
   },
@@ -67,34 +196,6 @@
         "showSku": true,
         "showProductReference": true
       }
-    }
-  },
-
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
     }
   }
 }
