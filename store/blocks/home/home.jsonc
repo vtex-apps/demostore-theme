@@ -1,7 +1,6 @@
 {
   "store.home": {
     "blocks": [
-      "rich-text#style",
       "slider-layout#styles",
       "shelf#new-arrivals",
       "shelf#clearence",

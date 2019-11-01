@@ -1,6 +1,6 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout#cat"]
   },
 
   "store.search#brand": {

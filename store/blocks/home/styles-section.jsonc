@@ -18,7 +18,8 @@
         "tablet": 1,
         "mobile": 1
       },
-      "blockClass": "styles"
+      "blockClass": "styles",
+      "showPaginationDots": "never"
     },
     "children": [
       "image#style1",
