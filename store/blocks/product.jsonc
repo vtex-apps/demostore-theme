@@ -38,7 +38,8 @@
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
-      "paddingBottom": 7
+      "paddingBottom": 7,
+      "blockClass": "product-main"
     },
     "children": [
       "flex-layout.col#stack",
@@ -65,7 +66,7 @@
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
-      "width": "60%",
+      "width": "70%",
       "rowGap": 0
     }
   },

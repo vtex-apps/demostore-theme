@@ -87,3 +87,9 @@
 .flexRow--footer-row :global(img) {
   filter: brightness(2);
 }
+
+
+/* Product */
+.flexRow--product-main {
+  color: #727273;
+}
