@@ -20,7 +20,16 @@
       "image#brand-6",
       "image#brand-7",
       "image#brand-8"
-    ]
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 4,
+        "phone": 2
+      },
+      "navigationStep": 1,
+      "showPaginationDots": "never"
+    }
   },
 
   "image#brand-1": {
