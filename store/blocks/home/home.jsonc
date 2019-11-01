@@ -12,9 +12,21 @@
     ]
   },
 
+  "carousel#home": {
+    "props": {
+      "autoplay": true,
+      "autoplaySpeed": 4,
+      "banners": [],
+      "height": 440,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+
   "flex-layout.row#slider": {
     "children": [
-      "slider-layout#styles"
+      // "slider-layout#styles",
+      "carousel#home"
     ]
   },
 
