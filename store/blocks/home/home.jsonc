@@ -20,8 +20,8 @@
       "paginationDotsVisibility": "desktopOnly",
       "collection": "139",
       "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 5,
+        "maxItems": 9,
+        "itemsPerPage": 3,
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
@@ -37,8 +37,8 @@
       "collection": "140",
       "paginationDotsVisibility": "desktopOnly",
       "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 5,
+        "maxItems": 9,
+        "itemsPerPage": 3,
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
