@@ -3,9 +3,10 @@
   padding: 14px 0px;
 }
 
+
 .flexRow--newsletter {
   background-color: #e8ccc9;
-  min-height: 297px;
+  padding-bottom: 2rem;
 }
 
 .flexRow--pinkRow {
@@ -13,8 +14,13 @@
   padding-bottom: 3rem
 }
 
-.flexColChild--newsletter {
-  max-height: 80px;
+.flexColChild--newsletter :global(p) {
+  margin-bottom: 0;
+}
+
+.flexColChild--newsletter :global(.buttonContainer) {
+  padding: 0;
+  background: red;
 }
 
 .flexRow--deals .stretchChildrenWidth {
