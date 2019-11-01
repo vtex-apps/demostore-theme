@@ -27,15 +27,15 @@
         "tablet": 4,
         "phone": 2
       },
-      "navigationStep": 1,
+      "navigationStep": 2,
       "showPaginationDots": "never"
     }
   },
 
   "image#brand-1": {
     "props": {
-      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
-      "maxWidth": "100px",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square1.png",
+      "maxWidth": "140px",
       "maxHeight": "100px",
       "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
     }
@@ -43,8 +43,8 @@
 
   "image#brand-2": {
     "props": {
-      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
-      "maxWidth": "100px",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square2.png",
+      "maxWidth": "140px",
       "maxHeight": "100px",
       "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
     }
@@ -52,8 +52,8 @@
 
   "image#brand-3": {
     "props": {
-      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
-      "maxWidth": "100px",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square3.png",
+      "maxWidth": "140px",
       "maxHeight": "100px",
       "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
     }
@@ -61,8 +61,8 @@
 
   "image#brand-4": {
     "props": {
-      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
-      "maxWidth": "100px",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square4.png",
+      "maxWidth": "140px",
       "maxHeight": "100px",
       "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
     }
@@ -70,8 +70,8 @@
 
   "image#brand-5": {
     "props": {
-      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
-      "maxWidth": "100px",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square5.png",
+      "maxWidth": "140px",
       "maxHeight": "100px",
       "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
     }
@@ -79,8 +79,8 @@
 
   "image#brand-6": {
     "props": {
-      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
-      "maxWidth": "100px",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square6.png",
+      "maxWidth": "140px",
       "maxHeight": "100px",
       "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
     }
@@ -88,8 +88,8 @@
 
   "image#brand-7": {
     "props": {
-      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
-      "maxWidth": "100px",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square7.png",
+      "maxWidth": "140px",
       "maxHeight": "100px",
       "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
     }
@@ -97,8 +97,8 @@
 
   "image#brand-8": {
     "props": {
-      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
-      "maxWidth": "100px",
+      "src": "https://appliancetheme.vteximg.com.br/arquivos/flatflat-brand-logo-square8.png",
+      "maxWidth": "140px",
       "maxHeight": "100px",
       "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
     }
