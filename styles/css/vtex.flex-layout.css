@@ -89,12 +89,9 @@
 .flexRow--footer-row :global(img) {
   filter: brightness(2);
 }
-<<<<<<< HEAD
 
 
 /* Product */
 .flexRow--product-main {
-  color: #727273;
+  color: #727273
 }
-=======
->>>>>>> footer mobile
