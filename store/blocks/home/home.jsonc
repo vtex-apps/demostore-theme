@@ -14,9 +14,31 @@
 
   "flex-layout.row#experiences": {
     "children": [
+      "responsive-layout.desktop#experiences",
+      "responsive-layout.mobile#experiences"
+    ]
+  },
+
+  "responsive-layout.desktop#experiences": {
+    "children": [
+      "flex-layout.row#experiences-desktop"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#experiences-desktop": {
+    "children": [
       "flex-layout.col#experience-dinner",
       "flex-layout.col#experience-relax",
       "flex-layout.col#experience-family"
+    ]
+  },
+
+  "responsive-layout.mobile#experiences": {
+    "children": [
+      "flex-layout.col#experience-dinner"
     ]
   },
 
