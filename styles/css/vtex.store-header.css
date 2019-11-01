@@ -4,10 +4,15 @@
 }
 
 .headerRow--main-header .headerRowBackground {
-  background-color: #F0F0F0;
+  background-color: #212222;
+  padding: 1.5em 0;
 }
 
-.headerRow--main-header :global(.vtex-menu-2-x-styledLink)  {
+.headerRow--main-header :global(a) {
+  margin: 0 auto;
+}
+
+.headerRow--main-topbar :global(.vtex-menu-2-x-styledLink)  {
   color: #727273;
   font-size: 14px;
 }

@@ -13,13 +13,23 @@
   },
   "header-layout.desktop": {
     "children": [
-      "header-row#4-desktop"
+      "header-row#4-desktop",
+      "header-row#5-desktop"
     ]
   },
 
   "header-row#4-desktop": {
     "children": [
-      "logo#desktop",
+      "logo#desktop"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header"
+    }
+  },
+
+  "header-row#5-desktop": {
+    "children": [
       "vtex.menu@2.x:menu#category-menu",
       "header-spacer",
       "header-spacer",
@@ -28,8 +38,7 @@
       "minicart"
     ],
     "props": {
-      "sticky": true,
-      "blockClass": "main-header"
+      "blockClass": "main-topbar"
     }
   },
 
