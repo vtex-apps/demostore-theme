@@ -15,26 +15,58 @@
   },
 
   "store.search#department": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout#department"]
   },
 
   "store.search#category": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout#cat"]
   },
 
   "store.search#subcategory": {
-    "blocks": ["search-result-layout"]
+    "blocks": ["search-result-layout#cat"]
   },
 
-  "search-result-layout": {
+  "search-result-layout#department": {
     "blocks": [
-      "search-result-layout.desktop",
-      "search-result-layout.mobile",
+      "search-result-layout.desktop#dep",
+      "search-result-layout.mobile#dep",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout#cat": {
+    "blocks": [
+      "search-result-layout.desktop#cat",
+      "search-result-layout.mobile#cat",
       "search-not-found-layout"
     ]
   },
 
-  "search-result-layout.desktop": {
+  "info-card#depbanner": {
+    "props": {
+      "imageUrl": "https://image.shutterstock.com/z/stock-photo-party-with-best-friends-group-of-cheerful-young-people-enjoying-home-party-with-snacks-and-drinks-492006757.jpg",
+      "callToActionMode": "none",
+      "isFullModeStyle": true,
+      "headline": " ",
+      "blockClass": "depbanner"
+    }
+  },
+
+  "search-result-layout.desktop#dep": {
+    "children": [
+      "flex-layout.row#depBanner",
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "search-result-layout.desktop#cat": {
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
@@ -116,7 +148,29 @@
     "blocks": ["gallery", "not-found"]
   },
 
-  "search-result-layout.mobile": {
+  "flex-layout.row#depBanner": {
+    "children": [
+      "info-card#depbanner"
+    ]
+  },
+
+  "search-result-layout.mobile#dep": {
+    "children": [
+      "flex-layout.row#depBanner",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#searchbread",
+      "flex-layout.row#productCountMobile",
+      "flex-layout.row#contentmobile"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "search-result-layout.mobile#cat": {
     "children": [
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
