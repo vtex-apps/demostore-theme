@@ -3,27 +3,47 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
-      "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers"
+      "shelf#related"
     ]
   },
+
+  "shelf#related": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "recomendation": "editor.relatedProducts.similars",
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "More options for this style"
+      }
+    }
+  },
+
+
+
   "flex-layout.row#product-breadcrumb": {
     "props": {
-      "marginTop": 4
+      "marginTop": 20
     },
     "children": ["breadcrumb"]
   },
   "flex-layout.row#product-main": {
     "props": {
-      "colGap": 7,
+      "colGap": 9,
       "rowGap": 7,
       "marginTop": 4,
       "marginBottom": 7,
       "paddingTop": 7,
       "paddingBottom": 7
     },
-    "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ]
   },
 
   "stack-layout": {
@@ -49,14 +69,18 @@
       "rowGap": 0
     }
   },
+
   "flex-layout.row#product-image": {
     "children": ["product-images"]
   },
+
   "product-images": {
     "props": {
-      "displayThumbnailsArrows": true
+      "displayThumbnailsArrows": true,
+      "thumbnailsOrientation": "vertical"
     }
   },
+
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
@@ -64,15 +88,9 @@
     },
     "children": [
       "product-name",
-      "product-rating-summary",
       "product-price#product-details",
-      "product-separator",
-      "product-quantity",
-      "product-identifier.product",
       "sku-selector",
-      "product-assembly-options",
       "flex-layout.row#buy-button",
-      "availability-subscriber",
       "shipping-simulator",
       "share#default"
     ]
