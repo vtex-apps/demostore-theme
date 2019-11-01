@@ -10,8 +10,18 @@
 
   "flex-layout.row#style-slider": {
     "children": [
-      "slider-layout#styles"
+      "info-card#styles"
     ]
+  },
+
+  "info-card#styles": {
+    "props": {
+      "imageUrl": "https://image.shutterstock.com/z/stock-photo-party-with-best-friends-group-of-cheerful-young-people-enjoying-home-party-with-snacks-and-drinks-492006757.jpg",
+      "callToActionMode": "none",
+      "isFullModeStyle": true,
+      "headline": " ",
+      "blockClass": "depbanner"
+    }
   },
 
   "shelf#styles": {
