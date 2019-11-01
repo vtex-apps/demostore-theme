@@ -3,7 +3,6 @@
   padding: 14px 0px;
 }
 
-
 .flexRow--newsletter {
   background-color: #e8ccc9;
   padding-bottom: 2rem;
@@ -60,4 +59,29 @@
   .flexColChild--pinkCol {
     width: 50%;
   }
+}
+
+
+/* Footer */
+.flexRow--footer-row {
+  background: #3255A6;
+}
+
+.flexRow--footer-row {
+  text-align: right;
+}
+
+.flexRow--footer-row :global(a) {
+  color: #E3E4E6;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 640px) {
+  .flexRow--footer-row :global(li) {
+    display: block;
+  }
+}
+
+.flexRow--footer-row :global(img) {
+  filter: brightness(2);
 }
