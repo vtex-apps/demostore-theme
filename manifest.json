@@ -1,7 +1,7 @@
 {
   "vendor": "vtex",
   "name": "assemblers-appliance-theme",
-  "version": "3.16.12",
+  "version": "3.16.13",
   "builders": {
     "styles": "1.x",
     "store": "0.x",
