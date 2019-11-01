@@ -38,17 +38,34 @@
       "paymentMethods": ["MasterCard", "Visa", "Diners Club"]
     }
   },
-
   "footer-layout.mobile": {
+
     "children": [
-      "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#mid-footer"
+    ]
+  },
+  "flex-layout.row#mid-footer": {
+    "props": {
+      "blockClass": "footer-row"
+    },
+    "children": [
+      "flex-layout.col#colFoot"
     ]
   },
 
-  "footer-layout.mobile": {
+  "flex-layout.col#colFoot": {
     "children": [
-      "flex-layout.row#footer-1-desktop"
+      "vtex.menu@2.x:menu#footer"
+    ]
+  },
+  "vtex.menu@2.x:menu#footer": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#category-electronics",
+      "menu-item#category-major-appliances",
+      "menu-item#category-small-appliances"
     ]
   }
 }
