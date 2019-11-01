@@ -20,46 +20,42 @@
   },
   "flex-layout.col#instagram-post1": {
     "children": [
-      "iframe#instagram-post1"
+      "sandbox#instagram-post1"
     ]
   },
   "flex-layout.col#instagram-post2": {
     "children": [
-      "iframe#instagram-post2"
+      "sandbox#instagram-post2"
     ]
   },
   "flex-layout.col#instagram-post3": {
     "children": [
-      "iframe#instagram-post3"
+      "sandbox#instagram-post3"
     ]
   },
   "flex-layout.col#instagram-post4": {
     "children": [
-      "iframe#instagram-post4"
+      "sandbox#instagram-post4"
     ]
   },
-  "iframe#instagram-post1": {
+  "sandbox#instagram-post1": {
     "props": {
-      "src": "https://www.instagram.com/p/BxZtvPShdRW/embed",
-      "height": 460
+      "initialContent": "<iframe src=\"https://www.instagram.com/p/B33OxNrHlhU/embed\" height=460 frameBorder=\"0\"/>"
     }
   },
-  "iframe#instagram-post2": {
+  "sandbox#instagram-post2": {
     "props": {
-      "src": "https://www.instagram.com/p/ByIy5EVhT6t/embed",
-      "height": 460
+      "initialContent": "<iframe src=\"https://www.instagram.com/p/ByIy5EVhT6t/embed\" height=460 frameBorder=\"0\"/>"
     }
   },
-  "iframe#instagram-post3": {
+  "sandbox#instagram-post3": {
     "props": {
-      "src": "https://www.instagram.com/p/B33OxNrHlhU/embed",
-      "height": 460
+      "initialContent": "<iframe src=\"https://www.instagram.com/p/BxUV2aIhnBr/embed\" height=460 frameBorder=\"0\"/>"
     }
   },
-  "iframe#instagram-post4": {
+  "sandbox#instagram-post4": {
     "props": {
-      "src": "https://www.instagram.com/p/BxUV2aIhnBr/embed",
-      "height": 460
+      "initialContent": "<iframe src=\"https://www.instagram.com/p/BxZtvPShdRW/embed\" height=460 frameBorder=\"0\"/>"
     }
   }
 }

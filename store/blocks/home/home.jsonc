@@ -6,9 +6,9 @@
       "shelf#clearence",
       "flex-layout.row#newsletter",
       "rich-text#brands",
-      "flex-layout.row#brands"
-      // "rich-text#instagram",
-      // "flex-layout.row#instagram"
+      "flex-layout.row#brands",
+      "rich-text#instagram",
+      "flex-layout.row#instagram"
     ]
   },
 
