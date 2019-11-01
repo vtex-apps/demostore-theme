@@ -1,16 +1,5 @@
 
 {
-  "rich-text#style": {
-    "props": {
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "text": "[placeholder]",
-      "blockClass": "ocasiao",
-      "textColor": "c-muted-1",
-      "font": "t-heading-2"
-    }
-  },
-
   "slider-layout#styles": {
     "props": {
       "itemsPerPage": {

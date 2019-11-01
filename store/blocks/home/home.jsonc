@@ -28,7 +28,7 @@
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
+      "paginationDotsVisibility": "never",
       "collection": "139",
       "productList": {
         "maxItems": 9,

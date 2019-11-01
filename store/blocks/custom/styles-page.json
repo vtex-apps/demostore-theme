@@ -1,20 +1,24 @@
 {
   "store.custom#styles": {
     "blocks": [
-      "rich-text#style",
-      "slider-layout#styles",
+      "flex-layout.row#style-slider",
       "shelf#styles",
       "flex-layout.row#pink",
       "search-result#styles"
     ]
   },
 
+  "flex-layout.row#style-slider": {
+    "children": [
+      "slider-layout#styles"
+    ]
+  },
 
   "shelf#styles": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
+      "paginationDotsVisibility": "never",
       "collection": "139",
       "productList": {
         "maxItems": 10,
@@ -22,7 +26,7 @@
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "New arrivals"
+        "titleText": ""
       }
     }
   },

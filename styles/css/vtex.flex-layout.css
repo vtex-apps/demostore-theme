@@ -10,7 +10,9 @@
 
 .flexRow--pinkRow {
   background-color: #e8ccc9;
-  padding-bottom: 3rem
+  padding-bottom: 3rem;
+  margin-top: 15px;
+  margin-bottom: 35px;
 }
 
 .flexColChild--newsletter :global(p) {
