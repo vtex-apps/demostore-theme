@@ -3,6 +3,15 @@
   padding: 14px 0px;
 }
 
+.flexRow--newsletter {
+  background-color: #e8ccc9;
+  min-height: 297px;
+}
+
+.flexColChild--newsletter {
+  max-height: 80px;
+}
+
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
 }

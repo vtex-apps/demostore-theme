@@ -65,11 +65,12 @@
     ]
   },
 
+
   "header-row#1-mobile": {
     "children": [
       "drawer",
-      "header-spacer",
       "logo#mobile",
+      "header-spacer",
       "header-spacer",
       "minicart"
     ],

@@ -1,3 +1,7 @@
 .container--xp {
   width: 80%;
 }
+
+.container--newsletter{
+  max-height: 50px
+}

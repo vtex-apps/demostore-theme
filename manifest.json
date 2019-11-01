@@ -1,5 +1,5 @@
 {
-  "vendor": "appliancetheme",
+  "vendor": "vtex",
   "name": "store-theme",
   "version": "3.16.7",
   "builders": {
@@ -30,6 +30,8 @@
     "vtex.my-account": "1.x",
     "vtex.flex-layout": "0.x",
     "vtex.rich-text": "0.x",
+    "vtex.iframe": "0.x",
+    "vtex.sandbox": "0.x",
     "vtex.store-drawer": "0.x",
     "vtex.locale-switcher": "0.x",
     "vtex.product-quantity": "1.x",

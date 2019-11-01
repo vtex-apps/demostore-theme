@@ -1,133 +1,34 @@
 {
-  "store.home": {
+  "store.home.iframe": {
     "blocks": [
-      "rich-text#experience",
-      "flex-layout.row#experiences",
       "rich-text#style",
-      "flex-layout.row#styles",
+      "slider-layout#styles",
       "shelf#new-arrivals",
       "shelf#clearence",
+      "flex-layout.row#newsletter",
+      "rich-text#brands",
       "slider-layout#brands",
-      "rich-text#newsletter",
-      "newsletter#home"
+      "rich-text#instagram",
+      "flex-layout.row#instagram"
     ]
   },
 
-  "rich-text#newsletter": {
+  "rich-text#instagram": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Join our mailing list",
+      "text": "Visit us on Instagram",
+      "blockClass": "ocasiao",
       "textColor": "c-muted-1",
       "font": "t-heading-2"
     }
   },
 
-  "newsletter#home": {
-    "props": {
-      "hideLabel": true,
-      "placeholder": ""
-    }
-  },
-
-  "flex-layout.row#experiences": {
-    "children": [
-      "flex-layout.col#layouts"
-    ]
-  },
-
-  "flex-layout.col#layouts": {
-    "children": [
-      "responsive-layout.desktop#experiences",
-      "responsive-layout.mobile#experiences"
-    ]
-  },
-
-  "responsive-layout.desktop#experiences": {
-    "children": [
-      "flex-layout.row#experiences-desktop"
-    ],
-    "props": {
-      "fullWidth": true
-    }
-  },
-
-  "flex-layout.row#experiences-desktop": {
-    "children": [
-      "flex-layout.col#experience-dinner",
-      "flex-layout.col#experience-relax",
-      "flex-layout.col#experience-family"
-    ]
-  },
-
-  "responsive-layout.mobile#experiences": {
-    "children": [
-      "flex-layout.col#experience-dinner"
-    ]
-  },
-
-  "flex-layout.col#experience-dinner": {
-    "children": [
-      "info-card#experience-dinner"
-    ],
-    "props": {
-      "blockclass": "textColumn",
-      "preventVerticalStretch": true
-    }
-  },
-
-  "flex-layout.col#experience-relax": {
-    "children": [
-      "info-card#experience-relax"
-    ],
-    "props": {
-      "blockclass": "textColumn",
-      "preventVerticalStretch": true
-    }
-  },
-
-  "flex-layout.col#experience-family": {
-    "children": [
-      "info-card#experience-family"
-    ],
-    "props": {
-      "blockclass": "textColumn",
-      "preventVerticalStretch": true
-    }
-  },
-
-  "info-card#experience-dinner": {
-    "props": {
-      "isFullModeStyle": true,
-      "headline": "Dinner",
-      "imageUrl": "https://www.receitasdecomidas.com.br/wp-content/uploads/2016/08/receitas-jantar.jpg",
-      "callToActionMode": "button"
-    }
-  },
-
-  "info-card#experience-relax": {
-    "props": {
-      "isFullModeStyle": true,
-      "headline": "Relax",
-      "imageUrl": "https://www.receitasdecomidas.com.br/wp-content/uploads/2016/08/receitas-jantar.jpg",
-      "callToActionMode": "button"
-    }
-  },
-
-  "info-card#experience-family": {
-    "props": {
-      "isFullModeStyle": true,
-      "headline": "Family",
-      "imageUrl": "https://www.receitasdecomidas.com.br/wp-content/uploads/2016/08/receitas-jantar.jpg",
-      "callToActionMode": "button"
-    }
-  },
-
-  "rich-text#experience": {
+  "rich-text#brands": {
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Buy for an experience",
+      "text": "Our brands",
       "blockClass": "ocasiao",
       "textColor": "c-muted-1",
       "font": "t-heading-2"
@@ -145,50 +46,6 @@
     }
   },
 
-  "flex-layout.row#styles": {
-    "children": [
-      "flex-layout.col#style-retro",
-      "flex-layout.col#style-modern"
-    ]
-  },
-
-  "flex-layout.col#style-retro": {
-    "children": [
-      "info-card#style-retro"
-    ],
-    "props": {
-      "blockclass": "textColumn",
-      "preventVerticalStretch": true
-    }
-  },
-
-  "flex-layout.col#style-modern": {
-    "children": [
-      "info-card#style-modern"
-    ],
-    "props": {
-      "blockclass": "textColumn",
-      "preventVerticalStretch": true
-    }
-  },
-
-  "info-card#style-retro": {
-    "props": {
-      "isFullModeStyle": true,
-      "headline": "Dinner",
-      "imageUrl": "https://www.receitasdecomidas.com.br/wp-content/uploads/2016/08/receitas-jantar.jpg",
-      "callToActionMode": "button"
-    }
-  },
-
-  "info-card#style-modern": {
-    "props": {
-      "isFullModeStyle": true,
-      "headline": "Relax",
-      "imageUrl": "https://www.receitasdecomidas.com.br/wp-content/uploads/2016/08/receitas-jantar.jpg",
-      "callToActionMode": "button"
-    }
-  },
 
   "shelf#new-arrivals": {
     "blocks": ["product-summary.shelf"],

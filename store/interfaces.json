@@ -1,0 +1,7 @@
+{
+  "store.home.iframe": {
+    "allowed": [
+      "iframe"
+    ]
+  }
+}
