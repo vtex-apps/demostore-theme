@@ -1,0 +1,97 @@
+{
+  "rich-text#brands": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Our brands",
+      "blockClass": "ocasiao",
+      "textColor": "c-muted-1",
+      "font": "t-heading-2"
+    }
+  },
+
+  "slider-layout#brands": {
+    "children": [
+      "image#brand-1",
+      "image#brand-2",
+      "image#brand-3",
+      "image#brand-4",
+      "image#brand-5",
+      "image#brand-6",
+      "image#brand-7",
+      "image#brand-8"
+    ]
+  },
+
+  "image#brand-1": {
+    "props": {
+      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
+      "maxWidth": "100px",
+      "maxHeight": "100px",
+      "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
+    }
+  },
+
+  "image#brand-2": {
+    "props": {
+      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
+      "maxWidth": "100px",
+      "maxHeight": "100px",
+      "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
+    }
+  },
+
+  "image#brand-3": {
+    "props": {
+      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
+      "maxWidth": "100px",
+      "maxHeight": "100px",
+      "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
+    }
+  },
+
+  "image#brand-4": {
+    "props": {
+      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
+      "maxWidth": "100px",
+      "maxHeight": "100px",
+      "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
+    }
+  },
+
+  "image#brand-5": {
+    "props": {
+      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
+      "maxWidth": "100px",
+      "maxHeight": "100px",
+      "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
+    }
+  },
+
+  "image#brand-6": {
+    "props": {
+      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
+      "maxWidth": "100px",
+      "maxHeight": "100px",
+      "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
+    }
+  },
+
+  "image#brand-7": {
+    "props": {
+      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
+      "maxWidth": "100px",
+      "maxHeight": "100px",
+      "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
+    }
+  },
+
+  "image#brand-8": {
+    "props": {
+      "src": "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072017/af_logo_brastemp.png",
+      "maxWidth": "100px",
+      "maxHeight": "100px",
+      "link": "https://alfredo--appliancetheme.myvtex.com/major-appliances"
+    }
+  }
+}

@@ -1,4 +1,15 @@
 {
+  "rich-text#instagram": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Visit us on Instagram",
+      "blockClass": "ocasiao",
+      "textColor": "c-muted-1",
+      "font": "t-heading-2"
+    }
+  },
+
   "flex-layout.row#instagram": {
     "children": [
       "flex-layout.col#instagram-post1",
