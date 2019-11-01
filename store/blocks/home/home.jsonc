@@ -14,6 +14,12 @@
 
   "flex-layout.row#experiences": {
     "children": [
+      "flex-layout.col#layouts"
+    ]
+  },
+
+  "flex-layout.col#layouts": {
+    "children": [
       "responsive-layout.desktop#experiences",
       "responsive-layout.mobile#experiences"
     ]
