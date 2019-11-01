@@ -8,8 +8,26 @@
       "shelf#new-arrivals",
       "shelf#clearence",
       "slider-layout#brands",
-      "newsletter"
+      "rich-text#newsletter",
+      "newsletter#home"
     ]
+  },
+
+  "rich-text#newsletter": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Join our mailing list",
+      "textColor": "c-muted-1",
+      "font": "t-heading-2"
+    }
+  },
+
+  "newsletter#home": {
+    "props": {
+      "hideLabel": true,
+      "placeholder": ""
+    }
   },
 
   "flex-layout.row#experiences": {

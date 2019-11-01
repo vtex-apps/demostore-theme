@@ -1,7 +1,7 @@
 {
   "vendor": "appliancetheme",
   "name": "store-theme",
-  "version": "3.16.4",
+  "version": "3.16.7",
   "builders": {
     "styles": "1.x",
     "store": "0.x",
