@@ -21,7 +21,11 @@
   "flex-layout.row#brands": {
     "children": [
       "slider-layout#brands"
-    ]
+    ],
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 8
+    }
   },
 
   "shelf#new-arrivals": {
