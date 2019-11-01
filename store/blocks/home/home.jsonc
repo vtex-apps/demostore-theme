@@ -1,5 +1,5 @@
 {
-  "store.home.iframe": {
+  "store.home": {
     "blocks": [
       "rich-text#style",
       "slider-layout#styles",
@@ -7,9 +7,9 @@
       "shelf#clearence",
       "flex-layout.row#newsletter",
       "rich-text#brands",
-      "slider-layout#brands",
-      "rich-text#instagram",
-      "flex-layout.row#instagram"
+      "slider-layout#brands"
+      // "rich-text#instagram",
+      // "flex-layout.row#instagram"
     ]
   },
 
