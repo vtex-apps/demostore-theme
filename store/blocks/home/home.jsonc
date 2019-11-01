@@ -45,27 +45,5 @@
         "titleText": "Clearence"
       }
     }
-  },
-
-  "product-summary#home": {
-    "props": {
-      "isOneClickBuy": false,
-      "showBadge": true,
-      "badgeText": "OFF",
-      "buyButtonText": "Add to cart",
-      "displayBuyButton": "displayButtonAlways",
-      "showCollections": false,
-      "showListPrice": true,
-      "labelSellingPrice": "To",
-      "labelListPrice": "From",
-      "showLabels": true,
-      "showInstallments": true,
-      "showSavings": true,
-      "name": {
-        "showBrandName": true,
-        "showSku": true,
-        "showProductReference": true
-      }
-    }
   }
 }

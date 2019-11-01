@@ -4,7 +4,7 @@
     "props": {
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
-      "text": "Choose by style",
+      "text": "[placeholder]",
       "blockClass": "ocasiao",
       "textColor": "c-muted-1",
       "font": "t-heading-2"

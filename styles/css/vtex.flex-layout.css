@@ -8,6 +8,11 @@
   min-height: 297px;
 }
 
+.flexRow--pinkRow {
+  background-color: #e8ccc9;
+  padding-bottom: 3rem
+}
+
 .flexColChild--newsletter {
   max-height: 80px;
 }
@@ -43,4 +48,10 @@
 
 .flexCol--switcherMobileCol {
   width: 20%;
+}
+
+@media only screen and (min-width: 640px) {
+  .flexColChild--pinkCol {
+    width: 50%;
+  }
 }
