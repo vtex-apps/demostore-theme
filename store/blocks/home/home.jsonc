@@ -1,100 +1,76 @@
 {
   "store.home": {
     "blocks": [
-      "carousel#home",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
-      "flex-layout.row#deals",
-      "shelf#home",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
-      "newsletter"
+      "flex-layout.row#slider",
+      "shelf#new-arrivals",
+      "shelf#clearence",
+      "flex-layout.row#newsletter",
+      "rich-text#brands",
+      "flex-layout.row#brands",
+      "rich-text#instagram",
+      "flex-layout.row#instagram"
     ]
   },
 
   "carousel#home": {
     "props": {
-      "autoplay": false,
-      "banners": [
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        }
-      ],
-      "height": 720,
+      "autoplay": true,
+      "autoplaySpeed": 4,
+      "banners": [],
+      "height": 440,
       "showArrows": true,
       "showDots": true
     }
   },
 
-  "shelf#home": {
+  "flex-layout.row#slider": {
+    "children": [
+      // "slider-layout#styles",
+      "carousel#home"
+    ]
+  },
+
+  "flex-layout.row#brands": {
+    "children": [
+      "slider-layout#brands"
+    ],
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 8
+    }
+  },
+
+  "shelf#new-arrivals": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
-      "paginationDotsVisibility": "desktopOnly",
+      "paginationDotsVisibility": "never",
+      "collection": "139",
       "productList": {
-        "maxItems": 10,
-        "itemsPerPage": 5,
+        "maxItems": 9,
+        "itemsPerPage": 3,
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top sellers"
+        "titleText": "New arrivals"
       }
     }
   },
 
-  "product-summary#home": {
+  "shelf#clearence": {
+    "blocks": ["product-summary.shelf"],
     "props": {
-      "isOneClickBuy": false,
-      "showBadge": true,
-      "badgeText": "OFF",
-      "buyButtonText": "Add to cart",
-      "displayBuyButton": "displayButtonAlways",
-      "showCollections": false,
-      "showListPrice": true,
-      "labelSellingPrice": "To",
-      "labelListPrice": "From",
-      "showLabels": true,
-      "showInstallments": true,
-      "showSavings": true,
-      "name": {
-        "showBrandName": true,
-        "showSku": true,
-        "showProductReference": true
+      "orderBy": "OrderByTopSaleDESC",
+      "collection": "140",
+      "paginationDotsVisibility": "desktopOnly",
+      "productList": {
+        "maxItems": 9,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Clearence"
       }
-    }
-  },
-
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
     }
   }
 }

@@ -1,0 +1,28 @@
+
+{
+  "slider-layout#styles": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      },
+      "blockClass": "styles",
+      "showPaginationDots": "never"
+    },
+    "children": [
+      "image#style1",
+      "image#style2"
+    ]
+  },
+  "image#style1": {
+    "props": {
+      "src":"https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png"
+    }
+  },
+  "image#style2": {
+    "props": {
+      "src": "https://user-images.githubusercontent.com/194400/49531010-48dad180-f8b1-11e8-8d89-1e61320e1d82.png"
+    }
+  }
+}

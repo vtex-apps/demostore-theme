@@ -1,0 +1,103 @@
+{
+  "store.custom#styles": {
+    "blocks": [
+      "flex-layout.row#style-slider",
+      "shelf#styles",
+      "flex-layout.row#pink",
+      "search-result#styles"
+    ]
+  },
+
+  "flex-layout.row#style-slider": {
+    "children": [
+      "info-card#styles"
+    ]
+  },
+
+  "info-card#styles": {
+    "props": {
+      "imageUrl": "https://image.shutterstock.com/z/stock-photo-party-with-best-friends-group-of-cheerful-young-people-enjoying-home-party-with-snacks-and-drinks-492006757.jpg",
+      "callToActionMode": "none",
+      "isFullModeStyle": true,
+      "headline": " ",
+      "blockClass": "depbanner"
+    }
+  },
+
+  "shelf#styles": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "never",
+      "collection": "139",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 3,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": ""
+      }
+    }
+  },
+
+  "flex-layout.row#pink": {
+    "props":{
+      "horizontalAlign": "center",
+      "blockClass": "pinkRow"
+    },
+    "children": [
+      "flex-layout.col#pink"
+    ]
+  },
+
+  "flex-layout.col#pink": {
+    "props":{
+      "blockClass": "pinkCol",
+      "horizontalAlign": "center",
+      "verticalAlign": "center"
+
+    },
+    "children": [
+      "rich-text#concepts-title",
+      "rich-text#concepts"
+    ]
+  },
+
+  "rich-text#concepts-title": {
+    "props": {
+      "font": "t-heading-2",
+      "textColor": "c-muted-1",
+      "text": "A new concept",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "rich-text#concepts": {
+    "props": {
+      "textColor": "c-muted-1",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque id consectetur erat. Etiam nulla eros, scelerisque laoreet consequat sit amet, pharetra nec nibh. Nulla porta non sapien sed feugiat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper justo enim, dictum vehicula mauris volutpat quis.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "search-result#styles": {
+    "blocks": [
+      "gallery",
+      "not-found",
+      "order-by",
+      "total-products",
+      "search-title"
+    ],
+    "props": {
+      "context": {
+        "maxItemsPerPage": 2,
+        "orderByField": "OrderByReleaseDateDESC"
+      },
+      "pagination": "show-more"
+    }
+  }
+
+}

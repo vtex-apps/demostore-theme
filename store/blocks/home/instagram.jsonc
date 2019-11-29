@@ -1,0 +1,61 @@
+{
+  "rich-text#instagram": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Visit us on Instagram",
+      "blockClass": "ocasiao",
+      "textColor": "c-muted-1",
+      "font": "t-heading-2"
+    }
+  },
+
+  "flex-layout.row#instagram": {
+    "children": [
+      "flex-layout.col#instagram-post1",
+      "flex-layout.col#instagram-post2",
+      "flex-layout.col#instagram-post3",
+      "flex-layout.col#instagram-post4"
+    ]
+  },
+  "flex-layout.col#instagram-post1": {
+    "children": [
+      "sandbox#instagram-post1"
+    ]
+  },
+  "flex-layout.col#instagram-post2": {
+    "children": [
+      "sandbox#instagram-post2"
+    ]
+  },
+  "flex-layout.col#instagram-post3": {
+    "children": [
+      "sandbox#instagram-post3"
+    ]
+  },
+  "flex-layout.col#instagram-post4": {
+    "children": [
+      "sandbox#instagram-post4"
+    ]
+  },
+  "sandbox#instagram-post1": {
+    "props": {
+      "initialContent": "<iframe src=\"https://www.instagram.com/p/B33OxNrHlhU/embed\" height=460 frameBorder=\"0\"/>"
+    }
+  },
+  "sandbox#instagram-post2": {
+    "props": {
+      "initialContent": "<iframe src=\"https://www.instagram.com/p/ByIy5EVhT6t/embed\" height=460 frameBorder=\"0\"/>"
+    }
+  },
+  "sandbox#instagram-post3": {
+    "props": {
+      "initialContent": "<iframe src=\"https://www.instagram.com/p/BxUV2aIhnBr/embed\" height=460 frameBorder=\"0\"/>"
+    }
+  },
+  "sandbox#instagram-post4": {
+    "props": {
+      "initialContent": "<iframe src=\"https://www.instagram.com/p/BxZtvPShdRW/embed\" height=460 frameBorder=\"0\"/>"
+    }
+  }
+}

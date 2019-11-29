@@ -45,25 +45,10 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/small-appliances",
+        "href": "/sale/d",
         "noFollow": true,
         "tagTitle": "Small appliances",
         "text": "Small appliances"
-      }
-    }
-  },
-  "menu-item#login": {
-    "props": {
-      "id": "menu-item-custom-login",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/account",
-        "noFollow": true,
-        "tagTitle": "My account",
-        "text": "My account"
       }
     }
   }
