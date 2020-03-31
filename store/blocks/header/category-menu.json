@@ -13,6 +13,7 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
+        "categoryId": 153,
         "type": "internal",
         "href": "/electronics/",
         "noFollow": true,
@@ -29,6 +30,7 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
+        "categoryId": "151",
         "type": "internal",
         "href": "/major-appliances/",
         "noFollow": true,
@@ -44,6 +46,7 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
+        "categoryId": 152,
         "type": "internal",
         "href": "/small-appliances",
         "noFollow": true,
