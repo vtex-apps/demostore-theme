@@ -28,6 +28,17 @@
     }
   },
 
+  "autocomplete-result-list.v2": {
+    "blocks": ["product-summary"]
+  },
+  "search-bar": {
+    "blocks": ["autocomplete-result-list.v2"],
+    "props": {
+      "openAutocompleteOnFocus": true,
+      "customSearchPageUrl": "/search?_query=${term}"
+    }
+  },
+
   "header-row#5-desktop": {
     "children": [
       "vtex.menu@2.x:menu#category-menu",
