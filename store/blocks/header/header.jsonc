@@ -29,13 +29,12 @@
   },
 
   "autocomplete-result-list.v2": {
-    "blocks": ["product-summary"]
+    "blocks": ["product-summary.shelf"]
   },
   "search-bar": {
     "blocks": ["autocomplete-result-list.v2"],
     "props": {
-      "openAutocompleteOnFocus": true,
-      "customSearchPageUrl": "/search?_query=${term}"
+      "openAutocompleteOnFocus": true
     }
   },
 
