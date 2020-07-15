@@ -1,6 +1,63 @@
 {
   "store.search": {
-    "blocks": ["search-result-layout#cat"]
+    "blocks": ["search-result-layout#search"]
+  },
+
+  "search-result-layout#search": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "flex-layout.row#result": {
+    "children": ["flex-layout.col#filter", "flex-layout.col#content"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "fullWidth": true
+    }
+  },
+
+  "flex-layout.row#searchtitle": {
+    "children": ["search-title.v2"]
+  },
+
+  "flex-layout.row#didyoumean": {
+    "children": ["did-you-mean"]
+  },
+  "flex-layout.row#suggestion": {
+    "children": ["search-suggestions"]
+  },
+  "flex-layout.row#banner-one": {
+    "children": ["search-banner#one"]
+  },
+  "search-banner#one": {
+    "props": {
+      "area": "one",
+      "blockClass": "myBanner",
+      "horizontalAlignment": "center"
+    }
+  },
+  "flex-layout.row#searchbread": {
+    "children": ["breadcrumb.search"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
   },
 
   "store.search#brand": {
@@ -13,7 +70,6 @@
       }
     }
   },
-
   "store.search#department": {
     "blocks": ["search-result-layout#department"]
   },
@@ -80,27 +136,19 @@
       }
     }
   },
-  "flex-layout.row#searchbread": {
-    "children": ["breadcrumb.search"],
-    "props": {
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
-  },
-  "flex-layout.row#searchtitle": {
-    "children": ["search-title.v2"]
-  },
-  "flex-layout.row#result": {
-    "children": ["flex-layout.col#filter", "flex-layout.col#content"],
-    "props": {
-      "preventHorizontalStretch": true,
-      "fullWidth": true
-    }
-  },
   "flex-layout.col#filter": {
     "children": ["filter-navigator.v3"],
     "props": {
       "blockClass": "filterCol"
+    }
+  },
+  "order-by": {
+    "props": {
+      "hiddenOptions": [
+        "OrderByReleaseDateDESC",
+        "OrderByNameASC",
+        "OrderByNameDESC"
+      ]
     }
   },
   "flex-layout.col#content": {

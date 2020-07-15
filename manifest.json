@@ -1,12 +1,13 @@
 {
-  "vendor": "vtex",
-  "name": "assemblers-appliance-theme",
-  "version": "3.16.21",
+  "vendor": "demostore",
+  "name": "appliance-theme",
+  "version": "1.0.1",
   "builders": {
-    "styles": "1.x",
+    "styles": "2.x",
     "store": "0.x",
     "sitemap": "0.x",
-    "docs": "0.x"
+    "docs": "0.x",
+    "assets": "0.x"
   },
   "mustUpdateAt": "2018-09-05",
   "scripts": {
@@ -45,7 +46,8 @@
     "vtex.stack-layout": "0.x",
     "vtex.product-specification-badges": "0.x",
     "vtex.slider-layout": "0.x",
-    "vtex.responsive-layout": "0.x"
+    "vtex.responsive-layout": "0.x",
+    "vtex.search": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

@@ -25,9 +25,9 @@
   padding-top: 1rem;
 }
 
-#newsletter-input {
+/* #newsletter-input {
   background-color: #ffffff;
-}
+} */
 
 .newsletter .container {
   padding: 0 0 20px 0;
@@ -44,18 +44,18 @@
   color: #fff;
 }
 
-.inputGroup input {
+/* .inputGroup input {
   background-color: #ffffff;
   color: #727273;
   border: 2px solid #E3E4E6;
   box-sizing: border-box;
   border-radius: 4px;
-}
+} */
 
-.inputGroup input::placeholder {
+/* .inputGroup input::placeholder {
   color: #fff;
   font-size: 16px;
-}
+} */
 
 .imageElement--storePrint {
   max-height: 300px;

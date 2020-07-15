@@ -3,7 +3,7 @@
     "blocks": [
       "flex-layout.row#slider",
       "shelf#new-arrivals",
-      "shelf#clearence",
+      "shelf#clearance",
       "flex-layout.row#newsletter",
       "rich-text#brands",
       "flex-layout.row#brands",
@@ -16,7 +16,11 @@
     "props": {
       "autoplay": true,
       "autoplaySpeed": 4,
-      "banners": [],
+      "banners": [
+        {
+          "image": "assets/chrome1.png"
+        }
+      ],
       "height": 440,
       "showArrows": true,
       "showDots": true
@@ -57,7 +61,7 @@
     }
   },
 
-  "shelf#clearence": {
+  "shelf#clearance": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
@@ -69,7 +73,7 @@
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Clearence"
+        "titleText": "Clearance"
       }
     }
   }
