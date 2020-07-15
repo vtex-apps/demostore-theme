@@ -47,7 +47,7 @@
     "vtex.product-specification-badges": "0.x",
     "vtex.slider-layout": "0.x",
     "vtex.responsive-layout": "0.x",
-    "vtex.search": "0.x"
+    "vtex.search": "1.x"
   },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }

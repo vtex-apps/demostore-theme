@@ -1,23 +1,15 @@
 {
-  //   "store.search": {
-  //   "blocks": ["search-result-layout#search"],
-  //   "props": {
-  //     "context": {
-  //       "priceRangeKey": "price"
-  //     }
-  //   }
-  // },
-  "store.search.v2": {
+  "store.search": {
     "blocks": ["search-result-layout#search"]
   },
 
   "search-result-layout#search": {
     "blocks": [
-      "search-result-layout.desktop.enhanced",
+      "search-result-layout.desktop",
       "search-not-found-layout"
     ]
   },
-  "search-result-layout.desktop.enhanced": {
+  "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
