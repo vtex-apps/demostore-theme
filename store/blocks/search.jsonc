@@ -11,6 +11,9 @@
   },
   "search-result-layout.desktop": {
     "children": [
+      "flex-layout.row#did-you-mean",
+      "flex-layout.row#suggestion",
+      "flex-layout.row#banner-one",
       "flex-layout.row#searchbread",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
@@ -36,7 +39,7 @@
     "children": ["search-title.v2"]
   },
 
-  "flex-layout.row#didyoumean": {
+  "flex-layout.row#did-you-mean": {
     "children": ["did-you-mean"]
   },
   "flex-layout.row#suggestion": {

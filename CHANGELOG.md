@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.2.0] - 2020-07-16
+
+### Added
+
+- `did-you-mean`, `suggestion` and `banner` blocks.
+
 ## [1.1.0] - 2020-07-15
 
 ## [1.0.1] - 2020-07-15
